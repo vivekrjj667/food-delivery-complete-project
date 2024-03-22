@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact page</title>
+    style 
+       include ../static/contactstyle.css
+       
+</head>
+<body>
+    <form action="/contact" method="post" class="form">
+<input type="text" name="name" id="name" placeholder="Enter your name">
+<input type="text" name="address" id="address" placeholder="Enter your delivery address">
+<input type="text" name="email" id="email" placeholder="Enter your email">
+<input type="text" name="paymemtmethod" id="paymentmethod" placeholder="Enter your payment method">
+<input type="text" name="orderno" id="orderno" placeholder="Enter your order number">
+<textarea name="" id="textarea" cols="30" rows="10" placeholder="Enter delivery instructions"></textarea>  
+<button class="btn1">submit</button> 
+    </form>
+    <form action="/sendotp" method="post" class="formm">
+          <button class="btn2">send otp</button>
+    </form>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin: 0px 500px;
+}
+#name{
+
+height: 30px;
+}
+#address{
+    margin: 5px 0px;
+    height: 30px;
+}
+#email{
+    margin: 5px 0px;
+    height: 30px;
+}
+#paymentmethod{
+    margin: 5px 0px;
+    height: 30px;
+} 
+#orderno {
+    margin: 5px 0px;
+    height: 30px;
+}
+.btn1{
+    margin: 5px 0px;
+}
+.form1{
+    margin:-100px 500px  ;
+}
+.OTPverify{
+    margin: -100px 500px;
+    display: none;
+}
